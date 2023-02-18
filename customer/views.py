@@ -17,4 +17,26 @@ def cust_profit(request):
      return render(request,'customer/profit.html')         
 
 def cust_change(request):
-     return render(request,'customer/change.html')              
+     return render(request,'customer/change.html')  
+                 
+def cust_css(request):
+     return render(request,'customer/css.html')              
+       
+def cust_cssbox(request):
+     return render(request,'customer/cssbox.html')              
+
+def cust_csspro(request):
+     return render(request,'customer/csspro.html')            
+
+def cust_csspos(request):
+     return render(request,'customer/position_relation.html')                 
+
+def cust_csssticky(request):
+     return render(request,'customer/positionsticky.html')
+
+def cust_csssflexbox(request):
+     return render(request,'customer/css_flexbox.html')                     
+
+def cust_csssgrid(request):
+     return render(request,'customer/cssgrid.html')                     
+
